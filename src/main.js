@@ -39,5 +39,6 @@ form.addEventListener('submit', async (event) => {
     } else {
         errorMessage.textContent = ''
         renderProducts(data)
+        form.reset();
     }
 })
